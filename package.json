@@ -1,6 +1,6 @@
 {
   "name": "express-alexa-router",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A plugin for handling alexa-router through express",
   "main": "index.js",
   "scripts": {
