@@ -1,0 +1,31 @@
+{
+  "name": "express-alexa-router",
+  "version": "0.0.0",
+  "description": "A plugin for handling alexa-router through express",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && lab --verbose --colors --assert code",
+    "test-cov": "standard && npm test -- -r console -o stdout -r html -o coverage/coverage.html -r lcov -o coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estate/express-alexa-router.git"
+  },
+  "keywords": [
+    "alexa",
+    "router",
+    "plugin",
+    "express"
+  ],
+  "author": "Estate <team@tryestate.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "alexa-router": "^v2.0.0",
+    "body-parser": "^1.15.2",
+    "code": "^3.0.1",
+    "express": "^4.14.0",
+    "lab": "^10.9.0",
+    "standard": "^7.1.2",
+    "supertest": "^1.2.0"
+  }
+}
